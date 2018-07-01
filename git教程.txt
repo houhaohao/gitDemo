@@ -23,6 +23,11 @@ git pull 远程仓库地址 分支master
 git remote add 变量名 共享仓库路径地址 
 例如：git remote add mingzi yuancheng@192.168.1.11:home、test、aa.git 修改名字
 
+本地创建SSH密钥连接github方法
+在本地 ssh-keygen -t rsa
+.ssh中把id_rsa.pub里边的密钥复制在github右上角点settings，->左侧 ssh点进去右上角new ssh key 添加进去密钥
+
+
 master主
 ssh非对称性加密 ssh yonghuming@192.168.1.xx
 
